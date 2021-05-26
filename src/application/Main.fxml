@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controll">
+   <children>
+      <Button fx:id="btn" layoutX="106.0" layoutY="210.0" mnemonicParsing="false" onAction="#click" prefHeight="25.0" prefWidth="165.0" text="Розв'язати">
+         <font>
+            <Font size="24.0" />
+         </font></Button>
+      <TextField fx:id="r" layoutY="270.0" prefHeight="38.0" prefWidth="391.0" promptText="Розв'язок" AnchorPane.bottomAnchor="92.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="270.0">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <Label id="xx" alignment="TOP_LEFT" ellipsisString="" layoutX="87.0" layoutY="164.0" text="a x^2 + b x + c = 0" textOverrun="CENTER_WORD_ELLIPSIS">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <TextField fx:id="a" layoutX="40.0" layoutY="110.0" prefHeight="26.0" prefWidth="53.0" />
+      <TextField fx:id="c" layoutX="247.0" layoutY="110.0" prefHeight="26.0" prefWidth="53.0" />
+      <TextField fx:id="b" layoutX="142.0" layoutY="110.0" prefHeight="26.0" prefWidth="53.0" />
+      <Label layoutX="26.0" layoutY="104.0" text="a">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="233.0" layoutY="104.0" text="c">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="128.0" layoutY="104.0" text="b">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Label>
+      <Label id="xx" alignment="TOP_LEFT" ellipsisString="" layoutX="3.0" layoutY="14.0" prefHeight="86.0" prefWidth="385.0" text="Алгоритм, який повертає 1, якщо рiвняння ax2 + bx + c = 0 (a&lt;&gt;0, b&lt;&gt;0, c&lt;&gt;0)має два рiзних дiйсних коренi, і 0 - в інших випадках." textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
